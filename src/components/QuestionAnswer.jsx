@@ -25,7 +25,7 @@ const QuestionAnswer = ({item,index}) =>{
               bg-gradient-to-r from-indigo-50 via-purple-50 to-pink-50 
               dark:from-zinc-800 dark:via-zinc-900 dark:to-zinc-800
               text-zinc-800 dark:text-zinc-200
-              rounded-tl-sm text-lg"
+              rounded-tl-sm text-sm"
             >
               <Answers
                 ans={ansItem}

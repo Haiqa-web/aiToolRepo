@@ -155,15 +155,15 @@ function App() {
 
         < div className="col-span-4 p-12 pt-2 flex flex-col h-screen text-center">
  <h1
-  className="text-5xl font-bold tracking-wide leading-snug
+  className="text-2xl font-bold tracking-wide leading-snug
   bg-clip-text text-transparent 
   bg-gradient-to-r from-rose-400 via-indigo-400 to-sky-500
   pb-0 drop-shadow-md animate-fade-in"
 >
   Hello User, <br /> Ask Me Anything!
 </h1>
-  <p className="text-xl text-gray-500 drop-shadow-blue-400k:text-zinc-400  mb-3 mt-2 tracking-widest">
-    I’m here to help you with anything you need ✨
+  <p className="text-sm text-gray-500 drop-shadow-blue-400k:text-zinc-400  mb-3 mt-2 tracking-widest">
+    I'm here to help you with anything you need ✨
   </p>
 
 
@@ -182,7 +182,7 @@ function App() {
        }
 
         <div ref={scrollToAns} className=' flex-1 overflow-y-auto no-scrollbar'>
-          <div className='dark:text-zinc-300 text-zinc-800 text-lg  '>
+          <div className='dark:text-zinc-300 text-zinc-800 text-sm  '>
 
           <ul>
               {
@@ -215,7 +215,7 @@ function App() {
       value={question || ''}
       onChange={(event) => setQuestion(event.target.value)}
       onKeyDown={isEnter}
-      className="w-full h-full px-4 py-3 outline-none text-lg 
+      className="w-full h-full px-4 py-3 outline-none text-sm 
         rounded-tl-3xl rounded-tr-md rounded-bl-md rounded-br-3xl
         bg-red-100 dark:bg-zinc-700
         border border-red-200 dark:border-zinc-600
@@ -227,7 +227,7 @@ function App() {
 
     <button
       onClick={askQuestion}
-      className="px-5 py-2 rounded-xl font-medium
+      className="px-3 py-1 rounded-xl font-medium text-sm
       bg-gradient-to-r from-purple-300 via-pink-200 to-indigo-200
       dark:from-zinc-700 dark:via-zinc-800 dark:to-zinc-700
       text-zinc-800 dark:text-white shadow-sm
